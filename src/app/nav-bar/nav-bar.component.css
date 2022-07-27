@@ -18,9 +18,22 @@
   padding-right: 6em;
 }
 
+.link-box {
+  height: 94%;
+  width: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.link-box:hover {
+  border-bottom: 5px solid #fff;
+  margin-bottom: -5px;
+}
+
 .nav-links a {
   text-decoration: none;
   color: #fff;
   font-size: 1.2rem;
-  padding: 0 1em;
 }

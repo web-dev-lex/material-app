@@ -5,7 +5,7 @@
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 300;
   color: #353535;
   padding: 1em;
@@ -20,7 +20,7 @@ h3 {
   font-size: 2.1rem;
   color: #353535;
   font-weight: 300;
-  padding: 0 1em;
+  padding: 1em 0;
 }
 
 .main-container {
