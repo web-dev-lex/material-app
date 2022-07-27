@@ -1,0 +1,39 @@
+
+
+.title-container {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #353535;
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+  margin: 0 10em;
+}
+
+h3 {
+  font-size: 2.1rem;
+  color: #353535;
+  font-weight: 300;
+  padding: 0 1em;
+}
+
+.main-container {
+  width: 70%;
+  font-size: 1.2rem;
+  padding: 1em;
+  color: #353535;
+}
+
+.aside-container {
+  width: 30%;
+  font-size: 1.2rem;
+  padding: 1em;
+  color: #353535;
+  border-left: 1px solid #8A898A;
+}

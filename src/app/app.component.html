@@ -1,33 +1,9 @@
 
 
-<mat-toolbar class="header">
+<app-nav-bar></app-nav-bar>
 
-<mat-toolbar-row>
-  <mat-icon >home</mat-icon>
-</mat-toolbar-row>
+<app-main></app-main>
 
-</mat-toolbar>
-
-<!-- <mat-toolbar color="primary">
-  <mat-toolbar-row>
-    <button mat-icon-button>
-      <mat-icon><menu type="toolbar"></menu></mat-icon>
-    </button>
-    <h1>SimpleCRM</h1>
-    <span class="menu-spacer"></span>
-    <div>
-      <a [routerLink]="'/accounts'"> Accounts </a>
-      <a [routerLink]="'/create-account'"> Create Account </a>
-      <a [routerLink]="'/contacts'"> Contacts </a>
-      <a [routerLink]="'/create-contacts'"> Create Contact </a>
-      <a [routerLink]="'/activities'"> Activities </a>
-      <a [routerLink]="'/create-activity'"> Create Activity </a>
-    </div>
-  </mat-toolbar-row>
-
-  <mat-toolbar-row>
-    <span class="small-text">SimpleCRM helps you easily manage your contacts</span>
-  </mat-toolbar-row>
-</mat-toolbar> -->
+<app-footer></app-footer>
 
 <router-outlet></router-outlet>
