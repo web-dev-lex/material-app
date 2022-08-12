@@ -1,39 +1,30 @@
 
 
-.title-container {
-  text-align: center;
-}
 
-.title {
-  font-size: 3rem;
-  font-weight: 300;
-  color: #353535;
-  padding: 1em;
-}
 
-.container {
+.container-1 {
   display: flex;
-  margin: 0 10em;
+  margin: 10em 20em;
 }
 
-h3 {
-  font-size: 2.1rem;
-  color: #353535;
-  font-weight: 300;
-  padding: 1em 0;
+.box-1 {
+  display: block;
 }
 
-.main-container {
-  width: 70%;
+.box-1 h2 {
+  font-size: 2rem;
+}
+
+.btn {
+  padding: 0.5em 2em;
+  border: none;
+  border-radius: 2em;
+  background-color: #353535;
+  color: #3298F5;
   font-size: 1.2rem;
-  padding: 1em;
-  color: #353535;
+  font-weight: 600;
 }
 
-.aside-container {
-  width: 30%;
-  font-size: 1.2rem;
-  padding: 1em;
-  color: #353535;
-  border-left: 1px solid #8A898A;
+.img {
+  width: 300px;
 }

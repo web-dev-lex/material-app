@@ -4,7 +4,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
-
+import { MatTabsModule } from '@angular/material/tabs';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +13,7 @@ import { isNgContainer } from '@angular/compiler';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { MainComponent } from './main/main.component';
     AppComponent,
     NavBarComponent,
     FooterComponent,
-    MainComponent
+    MainComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -29,6 +31,7 @@ import { MainComponent } from './main/main.component';
     MatButtonModule,
     MatIconModule,
     MatSidenavModule,
+    MatTabsModule,
     BrowserAnimationsModule,
   ],
   providers: [],

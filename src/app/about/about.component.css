@@ -1,0 +1,32 @@
+
+
+.title-container {
+  text-align: center;
+}
+
+.title-container h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #333333;
+  padding: 1em;
+}
+
+.main-section {
+  margin: 5em 20em;
+}
+
+.main-section p {
+  font-size: 1.2rem;
+  line-height: 1.3em;
+}
+
+.mat-tab {
+  margin: 3em;
+  padding: 1em;
+  font-size: 1.2rem;
+  border: 1px solid #333333;
+}
+
+.mat-tab p {
+  padding: 3em 0;
+}
