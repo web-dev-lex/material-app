@@ -42,7 +42,7 @@
 }
 
 .box-2 {
-  max-width: 50%;
+  max-width: 32%;
 }
 
 /* Buttons, hr's, images */
@@ -62,7 +62,40 @@ hr {
 }
 
 .img {
-  width: 350px;
+  max-width: 350px;
+}
+
+.img-2 {
+  max-height: 218px;
+}
+
+/* media queries */
+@media only screen and (max-width: 950px) {
+  .main-container {
+    margin: 5em 0;
+  }
+
+  .container-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+  .container-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-2 {
+    max-width: 60%;
+    padding-top: 4em;
+  }
 }
 
 

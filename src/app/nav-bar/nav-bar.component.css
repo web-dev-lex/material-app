@@ -37,3 +37,29 @@
   color: #fff;
   font-size: 1.2rem;
 }
+
+.menu-row {
+  display: none;
+}
+
+/* media queries */
+@media only screen and (max-width: 900px) {
+  .logo {
+    padding-left: 1em;
+  }
+
+  .nav-links {
+    padding-right: 1em;
+  }
+
+  .primary {
+    display: none;
+  }
+
+  .menu-row {
+    display: flex;
+
+  }
+}
+
+
